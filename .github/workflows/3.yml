@@ -11,4 +11,7 @@ jobs:
       run: |
           pwd
           ls -l    
-      working-directory: test1          
+      working-directory: test1  
+    - name: step3-od cmds
+      run: pwd    
+      
