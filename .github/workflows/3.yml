@@ -7,6 +7,6 @@ jobs:
     steps:
     - name: checkout code
       uses: actions/checkout@v4
-      runs: |
+      run: |
           pwd
           ls -l           
