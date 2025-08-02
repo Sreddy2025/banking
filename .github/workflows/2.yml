@@ -1,10 +1,10 @@
 name: 02-workflow-events
 on: 
- - push
- - pull_request
- - schedule
+  push:
+  pull_request:
+  schedule:
 jobs:
    job1:
      runs-on: ubuntu-latest
      steps:
-     - run : echo "Event name is ${{ github.event_name }}"	 
+     - run : echo "Event  names is ${{ github.event_name }}"	 
