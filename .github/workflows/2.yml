@@ -1,6 +1,5 @@
-name: o2-workflow
-on:
-  push
+name: 02-workflow
+on: push
 jobs:
    job1:
      runs-on: ubuntu-latest
