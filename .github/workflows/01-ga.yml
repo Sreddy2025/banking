@@ -8,4 +8,5 @@ jobs:
          run: |
             echo "This is Sheshivardhan $(date)"
             id 
-            pwd         
+            pwd
+       - run: echo "step2"            
