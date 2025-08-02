@@ -1,0 +1,12 @@
+name: 03-workflow
+on:
+  workflow_dispatch:
+jobs:
+  job1:
+    runs-on: ubuntu-latest
+    steps:
+    - name: checkout code
+      uses: actions/checkout@v4
+      runs: |
+          pwd
+          ls -l           
