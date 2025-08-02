@@ -5,4 +5,6 @@ jobs:
      runs-on: ubuntu-latest
      steps:
        - name: job1
-         run: echo "This is Sheshivardhan" 
+         run: echo "This is Sheshivardhan $(date)"
+         run: id 
+         run: pwd         
