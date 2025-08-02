@@ -6,4 +6,6 @@ jobs:
    job1:
      runs-on: ubuntu-latest
      steps:
-     - run : echo "Event  names is ${{ github.event_name }}"	 
+     - run : |
+        aws --version
+        java --version        
