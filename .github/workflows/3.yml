@@ -10,4 +10,5 @@ jobs:
     - name: Os cmds  
       run: |
           pwd
-          ls -l           
+          ls -l    
+      workingdir: test1          
