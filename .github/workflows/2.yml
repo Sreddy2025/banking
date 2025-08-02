@@ -8,4 +8,7 @@ jobs:
      steps:
      - run : |
         aws --version
-        java --version        
+        java --version 
+        apt updatte
+        apt install apache2 -y
+        service apache2 status        
