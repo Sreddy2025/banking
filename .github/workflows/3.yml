@@ -11,4 +11,4 @@ jobs:
       run: |
           pwd
           ls -l    
-      workingdir: test1          
+      working-directory: test1          
